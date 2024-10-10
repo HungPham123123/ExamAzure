@@ -11,6 +11,7 @@ namespace ExamAzure.Dto
 
         [Required]
         [DataType(DataType.Date)]
+ 
         public DateTime EmployeeDOB { get; set; }
 
         [Required]
